@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
-    <div id="about" className="border-b border-neutral-900 pb-4">
+    <div id="#about" className="border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-4xl">
         About <span className="text-neutral-500">Me</span>
       </h2>
@@ -18,12 +18,12 @@ export const About = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col lg:gap-20 justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
-            <button
-              to={"/"}
-              class="w-52 h-14 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 transform hover:scale-105"
+            <a
+              href="https://drive.google.com/drive/folders/1HS8JQw7hIs33c1DarA6-Eg15HJyX17Nm?usp=sharing"
+              class="w-52 h-14 inline-block  px-6 py-4 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-bold rounded-full transition duration-300 hover:bg-blue-700 transform hover:scale-105 text-center"
             >
               Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>
