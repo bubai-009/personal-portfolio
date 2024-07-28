@@ -19,7 +19,7 @@ export const About = () => {
           <div className="flex flex-col lg:gap-20 justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
             <a
-              href="https://drive.google.com/drive/folders/1HS8JQw7hIs33c1DarA6-Eg15HJyX17Nm?usp=sharing"
+              href="/"
               class="w-52 h-14 inline-block  px-6 py-4 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-bold rounded-full transition duration-300 hover:bg-blue-700 transform hover:scale-105 text-center"
             >
               Resume
