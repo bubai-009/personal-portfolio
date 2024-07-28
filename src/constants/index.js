@@ -44,7 +44,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.js", "React-router-dom"],
   },
   {
-    title: "TazaKhabar",
+    title: "News App",
     link: "https://github.com/bubai-009/news-app2",
     image: project3,
     description:
