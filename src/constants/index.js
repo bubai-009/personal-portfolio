@@ -29,7 +29,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "EatsOnWheels",
-    link: "https://food-delivery-frontend-zrfy.onrender.com",
+    link: "https://food-delivery-frontend-o3cj.onrender.com",
     image: project1,
     description:
       "Build a fully authenticated food delivery website for ordering some foods with conditional searching.Use React JS and CSS to create the structure and design of the frontend page and admin panel.Use Node.js and Express to create the backend and the project's APIs.Integrated payment gateway with stripe. Use MongoDB Atlas to store all details of the ordered products and user information.",
@@ -37,7 +37,7 @@ export const PROJECTS = [
   },
   {
     title: "VidTube",
-    link: "https://bubai-009.github.io/vidtube/",
+    link: "https://vidtubebubai.netlify.app",
     image: project2,
     description:
       "Build a fully functional website to show some recently popular videos on YouTube.Developed and designed using HTML, CSS, React.js, react-router-dom, and the moment package provided by node.js.",
